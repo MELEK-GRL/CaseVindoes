@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .anime{
+        @apply transition duration-150 ease-out  hover:ease-in
+    }
+  
+    .hoverBar{
+        @apply  cursor-pointer font-semibold  hover:text-gray-500  hover:transform transition-all hover:font-semibold
+    }
+    .boxCenter{
+        @apply  items-center justify-center flex
+    }
+    .boxStart{
+        @apply  items-start justify-start flex
+    }
+    .noneBox{
+        @apply  visible md:invisible
+
+    }
+    .menuBox{
+        @apply  z-20  invisible    absolute w-full max-h-full h-full
+    }
+    .menuBoxNone{
+        @apply  visible 
+    }
+    .menuBasketNone{
+        @apply  visible
+    }
+    .footerText{
+        @apply  font-semibold text-[16px] hover:border-b-white cursor-pointer hover:border-b-2 border-b-2 anime hover:ease-in border-rose-900
+    }
+    .footerFont{
+        @apply  font-semibold text-[14px]
+    }
+    .footerColor{
+        @apply bg-rose-900 text-white
+    }
+    .colorText{
+        @apply text-rose-900
+    }
+    
+    
+    .btn{
+        @apply transition duration-150 ease-out hover:ease-in rounded-md hover:border-sky-800 border hover:font-semibold  bg-sky-800  text-white  hover:text-sky-800  hover:bg-white cursor-pointer
+    }
+    
+
+    .socialMedia{
+        @apply border translate-y-0 hover:-translate-y-2 rounded p-[1px] transition duration-150 ease-out hover:ease-in  cursor-pointer bg-rose-900 text-white font-semibold  hover:text-gray-500  hover:bg-white hover:font-semibold
+    }
+    .containerBox{
+        @apply  px-3 lg:px-14  
+    }
+    .categoriesBox{
+        @apply  anime  p-2 gap-2 cursor-pointer hover:-translate-y-2 -translate-y-0 border border-rose-800 bg-rose-800 rounded boxCenter
+    }
+    .colorGray{
+        @apply text-gray-600 text-[13px] 
+    }
+    .colorPage{
+        @apply  font-bold font-mono text-[28px] text-rose-900
+    }
+    .countBtnRight{
+        @apply rounded-r-md rounded-none btn  py-[1px] px-[5px] 
+    }
+    .countBtnLeft{
+        @apply  rounded-l-md  btn py-[1px] px-[5px]  rounded-none
+    }
+    .searchBtn{
+        @apply  bg-rose-900 text-white  cursor-pointer
+    }
+    .paginationBttns{
+        @apply  p-2 w-full boxCenter gap-5 border 
+    }
+   
+    .paginationBttns a{
+       @apply px-3 py-1 transition duration-150 ease-out hover:ease-in rounded-md hover:border-rose-900 border hover:font-semibold font-semibold  bg-rose-900 text-white  hover:text-gray-500  hover:bg-white cursor-pointer
+    }
+   .calc{
+    width: calc(100% - 108px);;
+   }
+.headerChange{
+     box-shadow: 0 0px 18px -5px gray;
+}
+.colorIcons{
+    @apply text-sky-800
+}
+.colorIcon{
+    @apply text-gray-700
+}
+.actives{
+    @apply p-2  hover:bg-sky-600  border-b rounded  text-white flex items-center gap-2  cursor-pointer
+}
+.activesNone{
+    @apply actives bg-sky-600 shadow-white  shadow
+}
+
+  .scrollBar::-webkit-scrollbar{
+    width: 5px;
+    height: 3px;
+
+  }
+  .scrollBar::-webkit-scrollbar-thumb {
+  
+    background-color: rgb(2, 64, 114);
+    border-radius: 10px;
+    
+    
+    
+  }
+  .scrollBar::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgb(142, 193, 228);
+     height: 3px;
+     
+     
+  }
+  th,td{
+    @apply text-left whitespace-nowrap px-3 py-1 text-sm truncate
+  }
+  .iconEye{
+    @apply flex justify-center items-center text-center
+  }
+   .tableText{
+    @apply  shadow rounded p-1 whitespace-nowrap truncate
+   }
+   .boxActive{
+    @apply w-full flex absolute top-0 text-sm left-0 border-b-2 border-white
+   }
+   .borderTex{
+    @apply whitespace-nowrap text-[16px] font-semibold
+   }
+   .boxActiveBorder{
+    @apply border-b-2 border-sky-800 py-1 borderTex
+   }
+   .boxBorderNone{
+    @apply border-b-2 border-white borderTex
+   }
+   .tabItemNone{
+    @apply invisible w-0 h-0
+   }
+   .tabItem{
+    @apply visible
+   }
+    
+   .changeText{
+    @apply flex w-full items-center justify-center shadow-lg p-2 text-white rounded bg-sky-800
+   }
+   .crosAnime{
+    @apply hover:bg-sky-800 border hover:text-white anime
+   }
+   .searchBtn{
+    @apply anime bg-sky-800 hover:border-sky-800 hover:border border-white border hover:text-sky-800 hover:font-semibold hover:bg-white rounded-tr rounded-br text-white p-2
+   }
+}
