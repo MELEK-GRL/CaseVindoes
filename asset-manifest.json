@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/CaseVindoes/static/css/main.7f3b71bf.css",
-    "main.js": "/CaseVindoes/static/js/main.0057c63c.js",
+    "main.css": "/CaseVindoes/static/css/main.2d22d4c8.css",
+    "main.js": "/CaseVindoes/static/js/main.f584df20.js",
     "index.html": "/CaseVindoes/index.html",
-    "main.7f3b71bf.css.map": "/CaseVindoes/static/css/main.7f3b71bf.css.map",
-    "main.0057c63c.js.map": "/CaseVindoes/static/js/main.0057c63c.js.map"
+    "main.2d22d4c8.css.map": "/CaseVindoes/static/css/main.2d22d4c8.css.map",
+    "main.f584df20.js.map": "/CaseVindoes/static/js/main.f584df20.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f3b71bf.css",
-    "static/js/main.0057c63c.js"
+    "static/css/main.2d22d4c8.css",
+    "static/js/main.f584df20.js"
   ]
 }
